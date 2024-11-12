@@ -76,3 +76,4 @@ under the License.
   - 有字符串 LIKE 匹配需求，再加一个 NGram BloomFilter 索引
   - 对索引存储空间很敏感，将倒排索引换成 BloomFilter 索引
 3. 如果性能不及预期，通过 QueryProfile 分析索引过滤掉的数据量和消耗的时间，具体参考各个索引的详细文档
+4.
